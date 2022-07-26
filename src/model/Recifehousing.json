@@ -1,163 +1,134 @@
 [
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 1,
+        "Home": "Casa",
+        "District": "Campo Grande, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "foco de alagamento.",
+        "Rooms": " 4 quartos.",
+        "Rent_Value": 3.800,
+        "Address": "Rua Tenente Agripino, 46",
+        "Description": "Estacionamento, aceita animais, jardim, portão eletrônico, varanda."
         
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 2,
+        "Home": "Casa",
+        "District": "Arruda, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "foco de alagamento.",
+        "Rooms": " 1 quarto",
+        "Rent_Value": 750.00,
+        "Address": "Rua João Liberato, 38",
+        "Description": "Alugo uma casa, 45m² com todas as taxas, Composta: 01 Quarto, sala, 01 banheiro, cozinha e americanas. próximo a via sul veiculo. (Aceita animais)"
+        
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 3,
+        "Home": "Casa",
+        "District": "Boa Viagem, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "baixo foco de alagamento.",
+        "Rooms": " 1 quarto",
+        "Rent_Value": 800.00,
+        "Address": "Rua Professor José Brandão, 147",
+        "Description": "Casa para alugar, com 21m²(condomínio não informado) no melhor treco de Boa viagem."
+        
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 4,
+        "Home": "Apartamento",
+        "District": "Imbiribeira, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "baixo foco de alagamento.",
+        "Rooms": "2 quartos",
+        "Rent_Value": 2.100,
+        "Address": "Avenida Engenheiro Alves de Souza, 740",
+        "Description": "Alugo excelente apartamento, R$ 2.100 com todas as taxas inclusas, próximo à Lagoa do Araçá. Área privativa: 55 m², nascente, 2 quartos sociais (1 suíte), sala para 2 ambientes, banheiro social, cozinha com gás encanado e área de serviço, 1 ou 2 vagas cobertas de garagem"
+        
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 5,
+        "Home": "Apartamento",
+        "District": "Boa Viagem, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "baixo foco de alagamento.",
+        "Rooms": "3 quartos",
+        "Rent_Value": 1.500,
+        "Address": "Rua Camboim, 319",
+        "Description": "O apartamento no bairro Boa Viagem possui 63 metros quadrados com 3 quartos sendo 1 suite e 1 banheiro e mobiliado."
+        
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 6,
+        "Home": "Apartamento",
+        "District": "Prado, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "baixo foco de alagamento.",
+        "Rooms": "2 quartos",
+        "Rent_Value": 1.000,
+        "Address": "Rua Secundino Carneiro",
+        "Description": "Apartamento para Aluguel - Pradon, 2 Quartos, 50 m2. (condomínio R$ 250,00)"
+        
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 7,
+        "Home": "Apartamento",
+        "District": "Encruzilhada, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "foco de alagamento.",
+        "Rooms": "2 quartos",
+        "Rent_Value": 870.00,
+        "Address": "Estrada de Belém, 190",
+        "Description": "Apartamento com varanda, sala única, dois quartos sociais, com closet, lavabo, banheiro social, cozinha, área de serviço. Apartamento com varanda, sala única, dois quartos sociais, com closet, lavabo, banheiro social, cozinha, área de serviço. "
+        
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 8,
+        "Home": "Apartamento",
+        "District": "Zumbi, Recife - PE",
+        "Street": "com calçada, Rua não asfaltada",
+        "Flooding": "foco de alagamento.",
+        "Rooms": "2 quartos",
+        "Rent_Value": 900.00,
+        "Address": "Rua Paraguassu, 0",
+        "Description": "Alugo apartamento na Torre, na rua do colégio Lubienska, com varanda, sala para 03 ambientes, 02 quartos, banheiro social, cozinha com móveis planejados, área de serviço. "
+        
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 9,
+        "Home": "Apartamento",
+        "District": "Cordeiro, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "baixo foco de alagamento.",
+        "Rooms": "3 quartos",
+        "Rent_Value": 700.00,
+        "Address": "Rua Taió, 126",
+        "Description": "Condomínio Maria do Longá, 3° andar, 3 Quartos (sendo 2 suítes) sala, cozinha, área de serviço, 75m², varanda, uma vaga."
+        
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 10,
+        "Home": "Apartamento",
+        "District": "Casa Amarela, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "baixo foco de alagamento.",
+        "Rooms": "2 quartos",
+        "Rent_Value": 688.00,
+        "Address": "Rua Cromínia, 50",
+        "Description": "Localizado no bairro Casa Amarela, região que é sinônimo de crescimento e valorização, e a poucos metros de grandes avenidas, esta é uma ótima opção para você chamar de lar. O Condomínio Residencial Nilo Coelho é perfeito para acomodar sua família, contando com todo conforto e segurança que ela merece para viver todos os dias tranquilamente. O ambiente possui 60m² de área total, divididos em 2 quartos, ampla sala, 1 banheiro, cozinha e área de serviço."
     },
     {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
-    },
-    {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
-    },
-    {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
-    },
-    {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
-    },
-    {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
-    },
-    {
-        "id": "1",
-        "Neighborhood": " ",
-        "Street": " ",
-        "Flooding": " ",
-        "Rooms": " ",
-        "Rent_Value": " ",
-        "Address": " ",
-        "Description": " "
+        "id": 11,
+        "Home": "Apartamento",
+        "District": "Tejipió, Recife - PE",
+        "Street": "Rua asfaltada, com calçada.",
+        "Flooding": "foco de alagamento.",
+        "Rooms": "2 quartos",
+        "Rent_Value": 600.00,
+        "Address": "Rua Eduardo Mendes, 10",
+        "Description": "ÓTIMA LOCALIZAÇÃO PRÓXIMO AO BOSQUE DAS PALMEIRA, PERTO DE PARADA DE ÔNIBUS. 02 QUARTOS, SALA, COZINHA, WC SOCIAL, ÁREA DE SERVIÇO. COM GARAGEM."
+        
     }
-]
+    
+]    

@@ -8,14 +8,17 @@ app.use(express.json())
 app.use(cors())
 
 
-app.get("/", (request, response) => {
+app.get("/", (request, response) => {          // mudar as frases para inglês com outro contexto.
     response.status(200).send({
-        title: "Reprograma -> Cestas Solidárias - Projeto Final",
-        version: "1.0.0",
-        message: "Olá, ser humano do outro lado da tela, aqui você encontra a primeira versão deste projeto, uma API focada em cadastro de pessoas em situação de vulnerabilidade social."
+        title: "Reprograma -> APIaluguel - Final Project",
+        message: "This is the original version of the project, an API focused on allocating homeless people in Recife according to their social vulnerability."
     })
 
 })
 
 db.connect()
+
+const housingRoutes = require("./routes/rentRoutes")
+
+app.use("/homes", housingRoutes)
 module.exports = app

@@ -1,5 +1,4 @@
-const homes = require("../model/houseRent.json")
-
+const homes = require("../model/Recifehousing.json")
 // listar todas as casas e apartamentos GET
 const totalHousing = (request,response) => {
     response.status(200).json({
@@ -24,11 +23,11 @@ const searchById = (request, response) => {
     }
 }
 // listar por bairro GET
-const searchByNeighborhood = (request, response) => {
+const searchByDistrict = (request, response) => {
     try {
-        const callNeighborhood = request.query.Neighborhood
-        const findNeighborhood = homes.filter(neighborhoood => {
-            return neighborhoood.Neighborhood == callNeighborhood
+        const calldistrict = request.query.District
+        const finddistrict = homes.filter(districtt => {
+            return districtt.District == calldistrict
         })
         if(!findNeighborhood) {
             throw new Error("NEIGHBORHOOD NOT FOUND.")
@@ -60,7 +59,7 @@ const searchByStreet = (request, response) => {
     }
 }
 // listar por alagamento GET
-searchForFlooding = (request, response) => {
+const searchForFlooding = (request, response) => {
     try {
         const callFlooding = request.query.Flooding
         const findFlooding = homes.filter(flood => flood.Flooding == callFlooding)
@@ -76,7 +75,7 @@ searchForFlooding = (request, response) => {
     }
 }
 // listar por número de quartos GET
-searchForRooms = (request, response) => {
+const searchForRooms = (request, response) => {
     try {
         const callrooms = request.query.Rooms
         const findrooms = homes.filter(room => room.Rooms == callrooms)
@@ -92,7 +91,7 @@ searchForRooms = (request, response) => {
     }
 }
 // listar por valor GET
-searchByValue = (request, response) => {           // ainda não terminado, precisar colocar IFS para valores em reais $.
+const searchByValue = (request, response) => {           // ainda não terminado, precisar colocar IFS para valores em reais $.
     try {
         const callValue = request.query.Rent_Value
         const findValue = homes.find(valuee => valuee.Rent_Value == callValue)
@@ -107,6 +106,22 @@ searchByValue = (request, response) => {           // ainda não terminado, prec
         console.log(error)
     }
 }
+// listar por moradia GET
+const searchForHousing = (request, response) => {
+    try {
+        const callHousing = request.query.Home
+        const findHousing = homes.find(housing => housing.Home == callHousing)
+        if(!findHousing) {
+            throw new Error("NOT FOUND.")
+        }
+        response.status(200).json(findHousing)
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        })
+        console.log(error)
+    }
+}
 // cadastrar novas moradias POST
 const registerNewHomes = (request, response) => {
     try {
@@ -114,11 +129,87 @@ const registerNewHomes = (request, response) => {
         const newhome = { 
             id: (homes.length) +1,
             Home: takeBody.Home,
-            District: takeBody.District,
+            Neighborhood: takeBody.Neighborhood,
             Street: takeBody.Street,
-            
+            Flooding: takeBody.Flooding,
+            Rooms: takeBody.Rooms,
+            Rent_Value: takeBody.Rent_Value,
+            Address: takeBody.Address,
+            Description: takeBody.Description,
         }
-    } catch (error) {
         
+        homes.push(newhome)
+
+        response.status(201).json({
+            "message": "REGISTERED SUCCESSFULLY.",
+            newhome
+        })
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        })
+        console.log(error)
     }
+}
+// atualizar cadastros de moradias. PUT
+const registerHousing = (request, response) => {
+    try {
+        const callId = request.params.id
+        const takeBody = request.body
+
+        const housingFound = homes.find(housiing => housiing.id == callId)
+        const index = homes.indexOf(housingFound)
+
+        takeBody.id == takeBody
+        homes.splice(index, 1, takeBody)
+
+        if(housingFound == undefined) {
+            throw new Error ("DWELLING NOT FOUND, BECAUSE THE ID WAS NOT IDENTIFIED.")
+        }
+        response.status(500).json({
+            "message": "UPDATED HOUSING.",
+            takeBody
+        })
+
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        })
+        console.log(error)
+    }
+}
+// Excluir Moradia do sistema  DELETE
+const excludeHousing = (request, response) => {
+    try {
+        const callId = request.params.id
+    const housingFound = homes.find(housiing => housiing.id == callId)
+    
+    const index = homes.indexOf(housingFound)
+    homes.splice(index, 1)
+    if(housingFound == undefined) {
+        throw new Error ("ID NOT FOUND.")
+    }
+    response.status(200).json({
+        "message": "DWELLING SUCCESSFULLY DELETED."
+    })
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        })
+        console.log(error)
+    }
+}
+
+module.exports = {
+    excludeHousing,
+    registerHousing,
+    registerNewHomes,
+    searchById,
+    searchByDistrict,
+    searchByStreet,
+    searchByValue,
+    searchForFlooding,
+    totalHousing,
+    searchForRooms,
+    searchForHousing
 }
