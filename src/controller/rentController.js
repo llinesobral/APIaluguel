@@ -1,12 +1,12 @@
 const homes = require("../model/Recifehousing.json")
-// listar todas as casas e apartamentos GET
+
 const totalHousing = (request,response) => {
     response.status(200).json({
         "message": "LIST OF HOUSES AND APARTMENTS.",
         homes
     })
 }
-// listar por id GET
+
 const searchById = (request, response) => {
     try {
         const callId = request.params.id
@@ -14,7 +14,7 @@ const searchById = (request, response) => {
         if(!findId) {
             throw new Error ("ID NOT FOUND.")
         }
-        response.status(200).json(callId)
+        response.status(200).json(findId)
     } catch (error) {
         response.status(500).json({
             message: error.message
@@ -22,17 +22,15 @@ const searchById = (request, response) => {
         console.log(error)
     }
 }
-// listar por bairro GET
-const searchByDistrict = (request, response) => {
+
+const searchByDistrict = (request, response) => {    
     try {
         const calldistrict = request.query.District
-        const finddistrict = homes.filter(districtt => {
-            return districtt.District == calldistrict
-        })
-        if(!findNeighborhood) {
+        const finddistrict = homes.filter(districtt => districtt.District.includes(calldistrict))
+        if(!finddistrict) {
             throw new Error("NEIGHBORHOOD NOT FOUND.")
         }
-        return response.status(200).json(findNeighborhood)
+        response.status(200).json(finddistrict)
     } catch (error) {
         response.status(500).json({
             message: error.message
@@ -40,11 +38,11 @@ const searchByDistrict = (request, response) => {
         console.log(error)
     }
 }
-// listar por rua GET
-const searchByStreet = (request, response) => {
+
+const searchByStreet = (request, response) => {   
     try {
         const callStreet = request.query.Street
-        const findStreet = homes.filter(streett => {
+        const findStreet = homes.find(streett => {
             return streett.Street == callStreet
         })
         if(!findStreet) {
@@ -58,7 +56,7 @@ const searchByStreet = (request, response) => {
         console.log(error)
     }
 }
-// listar por alagamento GET
+
 const searchForFlooding = (request, response) => {
     try {
         const callFlooding = request.query.Flooding
@@ -74,7 +72,7 @@ const searchForFlooding = (request, response) => {
         console.log(error)
     }
 }
-// listar por número de quartos GET
+
 const searchForRooms = (request, response) => {
     try {
         const callrooms = request.query.Rooms
@@ -90,8 +88,8 @@ const searchForRooms = (request, response) => {
         console.log(error)
     }
 }
-// listar por valor GET
-const searchByValue = (request, response) => {           // ainda não terminado, precisar colocar IFS para valores em reais $.
+
+const searchByValue = (request, response) => {           
     try {
         const callValue = request.query.Rent_Value
         const findValue = homes.find(valuee => valuee.Rent_Value == callValue)
@@ -106,7 +104,7 @@ const searchByValue = (request, response) => {           // ainda não terminado
         console.log(error)
     }
 }
-// listar por moradia GET
+
 const searchForHousing = (request, response) => {
     try {
         const callHousing = request.query.Home
@@ -122,7 +120,7 @@ const searchForHousing = (request, response) => {
         console.log(error)
     }
 }
-// cadastrar novas moradias POST
+
 const registerNewHomes = (request, response) => {
     try {
         const takeBody = request.body 
@@ -151,7 +149,7 @@ const registerNewHomes = (request, response) => {
         console.log(error)
     }
 }
-// atualizar cadastros de moradias. PUT
+
 const registerHousing = (request, response) => {
     try {
         const callId = request.params.id
@@ -178,11 +176,11 @@ const registerHousing = (request, response) => {
         console.log(error)
     }
 }
-// Excluir Moradia do sistema  DELETE
+
 const excludeHousing = (request, response) => {
     try {
         const callId = request.params.id
-    const housingFound = homes.find(housiing => housiing.id == callId)
+        const housingFound = homes.find(housiing => housiing.id == callId)
     
     const index = homes.indexOf(housingFound)
     homes.splice(index, 1)

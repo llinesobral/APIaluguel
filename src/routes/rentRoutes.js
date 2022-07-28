@@ -32,7 +32,7 @@ routes.post("/register", controller.registerNewHomes)
 routes.put("/update/:id", controller.registerHousing)
 
 // rota para excluir moradias DELETE
-routes.delete("/delete", controller.excludeHousing)
+routes.delete("/remove/:id", controller.excludeHousing)
 
 // rota para listar todas as moradias GET
 routes.get("/all", controller.totalHousing)
