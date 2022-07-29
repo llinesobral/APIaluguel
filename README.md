@@ -32,7 +32,7 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
    ![git clone forcado](https://user-images.githubusercontent.com/101001076/181839751-d8aa2b90-b406-4c01-b0b8-6eba30b3d9be.PNG)
 
-4. Instale `as dependências`: npm i ou yarn
+4. Instale `as dependências`:
 
    ![instalando dependencias](https://user-images.githubusercontent.com/101001076/181840191-26064644-c6f6-4d0b-8fc6-319a7b2943e2.PNG)
 
@@ -41,9 +41,8 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
    ![criando o  env](https://user-images.githubusercontent.com/101001076/181840424-fb58b769-ea8c-4eb6-9f54-377435161816.PNG)
 
 6. Utilize `Postam` para chamar e testar os endpoinst da API: 
-
-
-
+   
+   ![postman  2](https://user-images.githubusercontent.com/101001076/181841448-644066ac-26f9-45c7-891b-970504708522.png)
 
 # Arquitetura MVC
 verificar isso depois
