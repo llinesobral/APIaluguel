@@ -20,19 +20,29 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 # Como Usar
 
-Entre no terminal do Git Bash e faça o clone da APIaluguel:
+1. Entre no terminal do Git Bash e faça o clone da APIaluguel:
+  
+  - `git clone https://github.com/llinesobral/APIaluguel`
 
- - `git clone https://github.com/llinesobral/APIaluguel`
+2. Faça o `fork`: 
 
-Faça o `fork`: 
+  ![clique no fork](https://user-images.githubusercontent.com/101001076/181839372-6305a217-d5cf-4682-aea1-28acc8c712db.PNG)
 
-Faça o `clone`: git clone
+3. Faça o `clone`:
 
-Instale `as dependências`: npm i ou yarn
+   ![git clone forcado](https://user-images.githubusercontent.com/101001076/181839751-d8aa2b90-b406-4c01-b0b8-6eba30b3d9be.PNG)
 
-Crie o seu `.env` e inclua as variáveis e valores:
+4. Instale `as dependências`: npm i ou yarn
 
-Utilize `Postam` para chamar e testar os endpoinst da API: 
+   ![instalando dependencias](https://user-images.githubusercontent.com/101001076/181840191-26064644-c6f6-4d0b-8fc6-319a7b2943e2.PNG)
+
+5. Crie o seu `.env` e inclua as variáveis e valores:
+
+   ![criando o  env](https://user-images.githubusercontent.com/101001076/181840424-fb58b769-ea8c-4eb6-9f54-377435161816.PNG)
+
+6. Utilize `Postam` para chamar e testar os endpoinst da API: 
+
+
 
 
 # Arquitetura MVC
