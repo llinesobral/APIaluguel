@@ -19,8 +19,8 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}, tem com
 
 # Como Usar
 
-- Entre no terminal do `Git Bash` e faça o `clone da APIaluguel`:
-`git clone https://github.com/llinesobral/APIaluguel.git`
+- Entre no terminal do Git Bash e faça o clone da APIaluguel:
+   * [`git clone https://github.com/llinesobral/APIaluguel`](#https://github.com/llinesobral/APIaluguel)
 
 - Faça o `fork`: 
 
