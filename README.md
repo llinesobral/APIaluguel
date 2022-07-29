@@ -1,16 +1,16 @@
 
-# Descrição
+# ✍️ Descrição
 
 A motivação do projeto se deu pela recente tragédia da enchente no Recife, estado que morei por 21 anos. Com isso, pessoas próximas entraram em contado com meus país no intuito de alugar a nossa antiga casa, pois estavam desabrigados e não gostariam de retornar para locais com grandes focos de alagamentos, ou que a rua não fosse asfaltada. Isso me fez pensar em desenvolver uma API REST de moradia específica para a capital do Nordeste, onde as famílias pudessem entrar no site e buscar por casas e apartamentos que fossem mais adeguados para a sua situação financeira e com risco mínimo de alagamento.
 
 
 
 
-# Sobre o Projeto
+# 📚 Sobre o Projeto
 
 API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem como objetivo ajudar pessoas desabrigadas na capital do Nordeste que ficaram em situação de vunerabilidade após a tragédia da enchente, e que de acordo com o 'Portal Folha de Pernambuco', Recife tem 3.828 família desalojadas atualmente, segundo o balanço da prefeitura.
 
-# Instalações
+# ⚠️ Instalações
 
 * [Cors](#https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS)
 * [Nodemon](#https://www.npmjs.com/package/nodemon)
@@ -18,7 +18,7 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 * [Express](#https://expressjs.com/pt-br/)
 * [Dotenv](#https://www.npmjs.com/package/dotenv)
 
-# Como Usar
+# 💻 Como Usar
 
 1. Entre no terminal do Git Bash e faça o clone da APIaluguel:
   
@@ -44,27 +44,31 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
    
    ![postman  2](https://user-images.githubusercontent.com/101001076/181841448-644066ac-26f9-45c7-891b-970504708522.png)
 
-# Arquitetura MVC
-verificar isso depois
 
-# Rotas 
+# 🌌 Rotas 
 
 - `GET`
-    - Retorna todas as moradias: `localhost:7070/pe/all`
-    - Retorna os bairros: `localhost:7070/pe/district`
-    - Retorna locais com focos de alagamentos: `localhost:7070/pe/flooding`
+    - Retorna todas as moradias: 
+    `localhost:7070/pe/all`
+    - Retorna os bairros: 
+    `localhost:7070/pe/district`
+    - Retorna locais com focos de alagamentos: 
+    `localhost:7070/pe/flooding`
 
 - `POST`
-    - Cadastra novas moradias: `localhost:7070/pe/register`
+    - Cadastra novas moradias: 
+    `localhost:7070/pe/register`
 
 - `PUT`
-    - Atualizando os dados: `localhost:7070/pe/update/:id`
+    - Atualizando os dados: 
+    `localhost:7070/pe/update/:id`
 
 - `DELETE`
-    - Deleta moradias específicas: `localhost:7070/pe/remove/:id`
+    - Deleta moradias específicas: 
+    `localhost:7070/pe/remove/:id`
 
 
-# Funcionalidades/Objetivos
+# ✨ Funcionalidades/Objetivos
 
 - Listar todas as moradias cadastradas no sistema;
 - Listar todas as localidades com foco de alagamento;
@@ -75,7 +79,7 @@ verificar isso depois
 - Deletar moradia já ocupada.
 
 
-# Tecnologias Utilizadas
+# 📱 Tecnologias Utilizadas
 
 * [JavaScript](#https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 * [Node.js](#https://nodejs.org/en/)
@@ -86,12 +90,12 @@ verificar isso depois
 * [Heroku](#https://id.heroku.com/login)
 
 
-# Aprendizados 
+# 📖 Aprendizados 
 
 O projeto final consiste em uma API fundamentada no CRUD, que são: CREATE (CRIAR), READ(LER-CONSULTA), UPDATE(ATUALIZAR) e DELETE(DELETAR).
 
 
-# Autora
+# 🎓 Autora
 
 Aline Alves de Lima Sobral
 
