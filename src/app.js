@@ -120,7 +120,7 @@ app.put("/pe/update/:id", (request, response) => {
 })
 
 // delete
-app.delete("pe/remove/:id", (request, response) => {
+app.delete("/pe/remove/:id", (request, response) => {
     const callId = request.params.id
     const housingFound = homes.find(housiing => housiing.id == callId)
     
