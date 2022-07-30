@@ -8,7 +8,7 @@ A motivação do projeto se deu pela recente tragédia da enchente no Recife, es
 
 # 📚 Sobre o Projeto
 
-API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem como objetivo ajudar pessoas desabrigadas na capital do Nordeste que ficaram em situação de vunerabilidade após a tragédia da enchente, e que de acordo com o 'Portal Folha de Pernambuco', Recife tem 3.828 família desalojadas atualmente, segundo o balanço da prefeitura.
+API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem como objetivo ajudar pessoas desabrigadas na capital do Nordeste que ficaram em situação de vunerabilidade após a tragédia da enchente, e que de acordo com o 'Portal Folha de Pernambuco', Recife tem 3.828 família desalojadas, segundo o balanço da prefeitura.
 
 # ⚠️ Instalações
 
