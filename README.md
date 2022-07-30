@@ -104,7 +104,22 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 # 📖 Aprendizados 
 
-O projeto final consiste em uma API fundamentada no CRUD, que são: CREATE (CRIAR), READ(LER-CONSULTA), UPDATE(ATUALIZAR) e DELETE(DELETAR).
+- O projeto final consiste em uma API fundamentada no `CRUD`:
+  - CREATE (CRIAR), 
+  - READ(LER-CONSULTA), 
+  - UPDATE(ATUALIZAR), 
+  - DELETE(DELETAR).
+
+- E também na `Arquitetura MVC`:
+  - 📑 .env
+  - 📑 .env.example
+  - 📑 .gitignore
+  - 📑 package-lock.json
+  - 📑 package.json
+  - 📑 Procfile
+  - 📑 README.md
+  - 📑 server.js
+  
 
 
 # 🎓 Autora
