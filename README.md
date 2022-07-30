@@ -105,10 +105,7 @@ O projeto final consiste em uma API fundamentada no CRUD, que são: CREATE (CRIA
 
 # 🎓 Autora
 
-![WhatsApp Image 2022-03-16 at 19 29 58(2)](https://user-images.githubusercontent.com/101001076/181864422-75f8c6f3-80e1-4be5-9c2f-6367a5afe970.jpeg)
-
-
-Aline Alves de Lima Sobral.
+Aline Alves de Lima Sobral
 
 * [Linkedin](#https://www.linkedin.com/in/aline-alves-5b7660235/)
 
