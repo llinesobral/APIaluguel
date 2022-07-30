@@ -62,16 +62,22 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 
 - `POST`
-    - Cadastro de novas moradias: 
-    `localhost:7070/pe/register`
+    - Cadastro de novas moradias:  `localhost:7070/pe/register`
+
+    ![Animação 4](https://user-images.githubusercontent.com/101001076/181908864-d22fb5d6-cbb8-4323-adad-2c821e82fd69.gif)
+
 
 - `PUT`
-    - Atualizando os dados: 
-    `localhost:7070/pe/update/:id`
+    - Atualizando os dados:  `localhost:7070/pe/update/:id`
+
+    ![Animação 5](https://user-images.githubusercontent.com/101001076/181908917-525dd82e-6653-4ab1-bea5-b0e91916ca76.gif)
+
 
 - `DELETE`
-    - Exclue moradias já ocupadas: 
-    `localhost:7070/pe/remove/:id`
+    - Exclue moradias já ocupadas:  `localhost:7070/pe/remove/:id`
+
+    ![Animação 6](https://user-images.githubusercontent.com/101001076/181908974-8e7397c0-113e-4e42-bef5-6f2b5881256f.gif)
+
 
 
 # ✨ Funcionalidades/Objetivos
