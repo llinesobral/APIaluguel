@@ -46,23 +46,23 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 #  Rotas 
 
 - `GET`
-    - Retorna todas as moradias: `localhost:7070/pe/all`
+    - Lista das moradias: `localhost:7070/pe/all`
 
     ![Animação 1](https://user-images.githubusercontent.com/101001076/181862356-945bc271-5117-478d-8c26-aa2c93e1c222.gif)
 
 
-    - Retorna os bairros: `localhost:7070/pe/district`
+    -  Lista dos bairros: `localhost:7070/pe/district`
     
     ![Animação 2](https://user-images.githubusercontent.com/101001076/181862845-c86d8b68-916c-4c31-b0a4-f38848224b49.gif)
 
 
-    - Retorna locais com focos de alagamentos: `localhost:7070/pe/flooding`
+    - Lista de locais com focos de alagamentos: `localhost:7070/pe/flooding`
     
     ![Animação 3](https://user-images.githubusercontent.com/101001076/181863353-9b595a1f-6ce2-48cd-84d7-64f19ecb0ff5.gif)
 
 
 - `POST`
-    - Cadastra novas moradias: 
+    - Cadastro de novas moradias: 
     `localhost:7070/pe/register`
 
 - `PUT`
@@ -70,7 +70,7 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
     `localhost:7070/pe/update/:id`
 
 - `DELETE`
-    - Deleta moradias específicas: 
+    - Exclue moradias já ocupadas: 
     `localhost:7070/pe/remove/:id`
 
 
@@ -78,11 +78,11 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 - Listar todas as moradias cadastradas no sistema;
 - Listar todas as localidades com foco de alagamento;
-- Listar por valores de aluguel de casas e apartamentos;
+- Listar por valores de aluguel casas e apartamentos;
 - Listar por bairro;
 - Cadastrar novas moradias;
 - Atualizar os dados das moradias;
-- Deletar moradia já ocupada.
+- Deletar moradias já ocupadas.
 
 
 # 📱 Tecnologias Utilizadas
