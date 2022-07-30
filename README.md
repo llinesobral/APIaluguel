@@ -49,11 +49,19 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 - `GET`
     - Retorna todas as moradias: 
-    `localhost:7070/pe/all`
+
+    ![Animação 1](https://user-images.githubusercontent.com/101001076/181862356-945bc271-5117-478d-8c26-aa2c93e1c222.gif)
+
+
     - Retorna os bairros: 
-    `localhost:7070/pe/district`
+    
+    ![Animação 2](https://user-images.githubusercontent.com/101001076/181862845-c86d8b68-916c-4c31-b0a4-f38848224b49.gif)
+
+
     - Retorna locais com focos de alagamentos: 
-    `localhost:7070/pe/flooding`
+    
+    ![Animação 3](https://user-images.githubusercontent.com/101001076/181863353-9b595a1f-6ce2-48cd-84d7-64f19ecb0ff5.gif)
+
 
 - `POST`
     - Cadastra novas moradias: 
