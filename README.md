@@ -1,4 +1,5 @@
 
+
 # ✍️ Descrição
 
 A motivação do projeto se deu pela recente tragédia da enchente no Recife, estado que morei por 21 anos. Com isso, pessoas próximas entraram em contado com meus pais no intuito de alugar a nossa antiga casa, pois estavam desabrigados e não gostariam de retornar para locais com grandes focos de alagamentos, ou que a rua não fosse asfaltada. Isso me fez pensar em desenvolver uma API REST de moradia específica para a capital do Nordeste, onde as famílias pudessem entrar no site e buscar por casas e apartamentos que fossem mais adequados para a sua situação financeira e sem risco de alagamento.
@@ -93,13 +94,13 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 # 📱 Tecnologias Utilizadas
 
-* [JavaScript](#https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-* [Node.js](#https://nodejs.org/en/)
-* [Vscode](#https://code.visualstudio.com/)
-* [Git/Github](#https://github.com/)
-* [MongoDb](#https://www.mongodb.com/pt-br)
-* [Postman](#https://www.postman.com/)
-* [Heroku](#https://id.heroku.com/login)
+* JavaScript
+* Node.js
+* Vscode
+* Git/Github
+* MongoDb
+* Postman
+* Heroku
 
 
 # 📖 Aprendizados 
@@ -140,6 +141,6 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 Aline Alves de Lima Sobral
 
-* [Linkedin](#https://www.linkedin.com/in/aline-alves-5b7660235/)
+* [Linkedin](#https://www.linkedin.com/in/aline-alves-5b7660235/): https://www.linkedin.com/in/aline-alves-5b7660235/
 
-* [Instagram](#https://www.instagram.com/lline.22/)
+* [Instagram](#https://www.instagram.com/lline.22/): https://www.instagram.com/lline.22/
