@@ -1,18 +1,18 @@
-<p align="center">
-<a href="#sobre">Sobre</a> .
-<a href="#descrição">Descrição</a> .
-<a href="#instalações">Instalações</a> .
-<a href="como usar">Como Usar</a> .
-<a href="#rotas">Rotas</a> .
-<a href="#tecnologias">Tecnologias</a> .
-<a href="aprendizado">Aprendizados</a> .
-<a href="funcionalidade">Funcionalidades/Objetivos</a> .
-<a href="autora">Autora</a> .
-</p>
+
 <h4 align="center">
-Projeto README em construção...
+🚧 ..Projeto README em 🚀 construção... 💈
 </h4>
 
+### Tabela de conhecimento
+- [Sobre](#📚-sobre-o-projeto)
+- [Descrição](#✍️-descrição)
+- [Instalações](#⚠️-instalações)
+- [Como usar](#💻-como-usar)
+- [Rotas](#🔎-rotas)
+- [Funcionalidade](#⚙️-funcionalidadesobjetivos)
+- [Tecnologias](#📱-tecnologias-utilizadas)
+- [Aprendizado](#📖-aprendizados)
+- [Autora](#🎓-autora)
 
 # ✍️ Descrição
 
@@ -35,7 +35,7 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 1. Entre no terminal do Git Bash e faça o clone da APIaluguel:
   
-  - `git clone https://github.com/llinesobral/APIaluguel`
+   `git clone https://github.com/llinesobral/APIaluguel`
 
 2. Faça o `fork`: 
 
@@ -45,7 +45,7 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
    ![git clone forcado](https://user-images.githubusercontent.com/101001076/181839751-d8aa2b90-b406-4c01-b0b8-6eba30b3d9be.PNG)
 
-4. Instale `as dependências`:
+4. Instale as `dependências`:
 
    ![instalando dependencias](https://user-images.githubusercontent.com/101001076/181840191-26064644-c6f6-4d0b-8fc6-319a7b2943e2.PNG)
 
@@ -58,7 +58,7 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
    ![postman  2](https://user-images.githubusercontent.com/101001076/181841448-644066ac-26f9-45c7-891b-970504708522.png)
 
 
-#  Rotas 
+# 🔎 Rotas 
 
 - `GET`
     - Lista das moradias: `localhost:7070/pe/all`
@@ -95,7 +95,7 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 
 
-# ✨ Funcionalidades/Objetivos
+# ⚙️ Funcionalidades/Objetivos
 
 - Listar todas as moradias cadastradas no sistema;
 - Listar todas as localidades com foco de alagamento;
