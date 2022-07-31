@@ -111,6 +111,7 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
   - DELETE(DELETAR).
 
 - E também na `Arquitetura MVC`:
+
   - 📑 .env
   - 📑 .env.example
   - 📑 .gitignore
