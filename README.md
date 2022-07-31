@@ -111,15 +111,36 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
   - DELETE(DELETAR).
 
 - E também na `Arquitetura MVC`:
+  
+ 📁 APIaluguel
+   |
+   |-  📁 src
+   |    |
+   |    |- 📁 controller
+   |         |- 📑 rentController.js
+   |
+   |    |- 📁 database
+   |         |- 📑 mongoConfig.js
+   |
+   |  
+   |    |- 📁 model
+   |         |- 📑 RecifehousingSchema.json
+   |
+   |    |- 📁 routes
+   |         |- 📑 rentRouter.js 
+   |       
+  
+   |    |- 📑 app.js
 
-  - 📑 .env
-  - 📑 .env.example
-  - 📑 .gitignore
-  - 📑 package-lock.json
-  - 📑 package.json
-  - 📑 Procfile
-  - 📑 README.md
-  - 📑 server.js
+   |- 📑 .env
+   |- 📑 .env.example
+   |- 📑 .gitignore
+   |- 📑 package-lock.json
+   |- 📑 package.json
+   |- 📑 Procfile
+   |- 📑 README.md
+   |- 📑 server.js
+
   
 
 
