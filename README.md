@@ -3,17 +3,6 @@
 🚧 ..Projeto README em 🚀 construção... 💈
 </h4>
 
-### Tabela de conhecimento
-- [Sobre](#📚-sobre-o-projeto)
-- [Descrição](#✍️-descrição)
-- [Instalações](#⚠️-instalações)
-- [Como usar](#💻-como-usar)
-- [Rotas](#🔎-rotas)
-- [Funcionalidade](#⚙️-funcionalidadesobjetivos)
-- [Tecnologias](#📱-tecnologias-utilizadas)
-- [Aprendizado](#📖-aprendizados)
-- [Autora](#🎓-autora)
-
 # ✍️ Descrição
 
 A motivação do projeto se deu pela recente tragédia da enchente no Recife, estado que morei por 21 anos. Com isso, pessoas próximas entraram em contado com meus pais no intuito de alugar a nossa antiga casa, pois estavam desabrigados e não gostariam de retornar para locais com grandes focos de alagamentos, ou que a rua não fosse asfaltada. Isso me fez pensar em desenvolver uma API REST de moradia específica para a capital do Nordeste, onde as famílias pudessem entrar no site e buscar por casas e apartamentos que fossem mais adequados para a sua situação financeira e sem risco de alagamento.
@@ -153,7 +142,7 @@ API desenvolvida como projeto final do curso de backend da {Reprograma}. Tem com
 
 # 🎓 Autora
 
-Aline Alves de Lima Sobral
+Aline Alves de Lima Sobral.
 
 * [Linkedin](#https://www.linkedin.com/in/aline-alves-5b7660235/): https://www.linkedin.com/in/aline-alves-5b7660235/
 
